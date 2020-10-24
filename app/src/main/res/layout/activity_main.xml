@@ -56,7 +56,7 @@
                     android:orientation="vertical"
                     android:padding="5dp">
                     <TextView
-                        android:text="Preview"
+                        tools:text="Preview"
                         android:textColor="@color/colorPrimary"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

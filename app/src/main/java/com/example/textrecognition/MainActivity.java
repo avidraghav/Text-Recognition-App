@@ -88,12 +88,12 @@ return true;
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if(which==0){
-                  if(!checkCameraPermission()){
-                      requestCameraPermission();
-                  }
-                  else {
-                      pickCamera();
-                  }
+                    if(!checkCameraPermission()){
+                        requestCameraPermission();
+                    }
+                    else {
+                        pickCamera();
+                    }
                 }
                 if(which ==1){
                     if(!checkStoragePermission()){
